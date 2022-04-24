@@ -1,0 +1,156 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #192252;
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 16px;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 120px;
+}
+
+.button {
+  padding: 14px 16px;
+  background: #0e1734;
+  border-radius: 4px;
+  font-weight: 500;
+  line-height: 19px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.section {
+  padding: 80px 0;
+}
+
+.section__title {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 150%;
+  letter-spacing: -0.01em;
+}
+
+.section__title_main {
+  font-size: 48px;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 36px 0;
+  align-items: center;
+}
+
+.header__logo {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+}
+
+.header__button {
+}
+
+.navigation__list {
+  display: flex;
+}
+
+.navigation__item {
+  margin-right: 32px;
+}
+
+.navigation__item:last-child {
+  margin-right: 0;
+}
+
+.navigation__link {
+  font-weight: 500;
+  line-height: 19px;
+  color: #192252;
+}
+
+.advantages {
+}
+
+.advantages__wrapper {
+  display: flex;
+  gap: 100px;
+}
+
+.advantages__text {
+  padding-top: 135px;
+}
+
+.advantages__title {
+  margin-bottom: 24px;
+}
+
+.advantages__description {
+  margin-bottom: 32px;
+  color: #848fac;`
+}
+
+.advantages__button {
+  width: 156px;
+  height: 51px;
+}
+
+.advantages__images {
+  display: flex;
+  gap: 24px;
+}
+
+.advantages__part-image {
+  max-width: 180px;
+  max-height: 588px;
+}
+
+.advantages__part-image_middle {
+  margin-top: 80px;
+}
+.section__advantages{
+display: flex;
+flex-direction:row;
+
+}
+.advantages__image {
+  margin-top: 80px;
+  margin-left: 120px;
+}
+.advantages__second-house {
+  max-width: 380px;
+  max-height: 580px;
+}
+.section__button {
+  width: 151px;
+  height: 51px;
+}
